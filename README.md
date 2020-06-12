@@ -1,2 +1,2 @@
 # discord-bot
-Discord bot for entering users in an event
+Discord bot in python for entering users in an event
