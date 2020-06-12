@@ -6,6 +6,7 @@ module.exports = {
         if(args[0] === 'foo'){
             return message.channel.send('bar');
         }
+        message.channel.send(`!args-info ${args[0]} not recognized, try typing !help`);
         message.channel.send(`Arguments: ${args}\nArguments length: ${args.length}`);
     },
     
